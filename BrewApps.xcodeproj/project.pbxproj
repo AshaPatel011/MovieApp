@@ -1,0 +1,530 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5E0636E52686E04500B6EE96 /* MovieDetailsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E0636E42686E04500B6EE96 /* MovieDetailsVC.swift */; };
+		5E0636E72686E5C800B6EE96 /* MovieDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E0636E62686E5C800B6EE96 /* MovieDetailViewModel.swift */; };
+		5EE00E9926861D6300A49928 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EE00E9826861D6300A49928 /* AppDelegate.swift */; };
+		5EE00E9B26861D6300A49928 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EE00E9A26861D6300A49928 /* SceneDelegate.swift */; };
+		5EE00E9D26861D6300A49928 /* MovieVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EE00E9C26861D6300A49928 /* MovieVC.swift */; };
+		5EE00EA026861D6300A49928 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5EE00E9E26861D6300A49928 /* Main.storyboard */; };
+		5EE00EA326861D6300A49928 /* BrewApps.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 5EE00EA126861D6300A49928 /* BrewApps.xcdatamodeld */; };
+		5EE00EA526861D6500A49928 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5EE00EA426861D6500A49928 /* Assets.xcassets */; };
+		5EE00EA826861D6500A49928 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5EE00EA626861D6500A49928 /* LaunchScreen.storyboard */; };
+		5EE00EB32686248B00A49928 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EE00EB22686248B00A49928 /* Model.swift */; };
+		5EE00EB526862A9800A49928 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EE00EB426862A9800A49928 /* ViewModel.swift */; };
+		5EE00EB726862AE400A49928 /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EE00EB626862AE400A49928 /* Constant.swift */; };
+		5EE00EB926862C8C00A49928 /* AppManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EE00EB826862C8C00A49928 /* AppManager.swift */; };
+		5EE00EC026863AA700A49928 /* MovieClsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EE00EBF26863AA700A49928 /* MovieClsCell.swift */; };
+		5EE00EC226863ABA00A49928 /* MoviePosterClsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EE00EC126863ABA00A49928 /* MoviePosterClsCell.swift */; };
+		5EE00EC426863AF000A49928 /* Extention.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EE00EC326863AF000A49928 /* Extention.swift */; };
+		C5212BA1059B0001E2B26AC4 /* Pods_BrewApps.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 97E14EE33B342023F6B9C426 /* Pods_BrewApps.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3891072E75560B3AD4C20CE8 /* Pods-BrewApps.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BrewApps.release.xcconfig"; path = "Target Support Files/Pods-BrewApps/Pods-BrewApps.release.xcconfig"; sourceTree = "<group>"; };
+		4D1EC98B3BA9024518D26D8B /* Pods-BrewApps.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BrewApps.debug.xcconfig"; path = "Target Support Files/Pods-BrewApps/Pods-BrewApps.debug.xcconfig"; sourceTree = "<group>"; };
+		5E0636E42686E04500B6EE96 /* MovieDetailsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieDetailsVC.swift; sourceTree = "<group>"; };
+		5E0636E62686E5C800B6EE96 /* MovieDetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieDetailViewModel.swift; sourceTree = "<group>"; };
+		5EE00E9526861D6300A49928 /* BrewApps.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BrewApps.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5EE00E9826861D6300A49928 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5EE00E9A26861D6300A49928 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		5EE00E9C26861D6300A49928 /* MovieVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieVC.swift; sourceTree = "<group>"; };
+		5EE00E9F26861D6300A49928 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5EE00EA226861D6300A49928 /* BrewApps.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = BrewApps.xcdatamodel; sourceTree = "<group>"; };
+		5EE00EA426861D6500A49928 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5EE00EA726861D6500A49928 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5EE00EA926861D6500A49928 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5EE00EB22686248B00A49928 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		5EE00EB426862A9800A49928 /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
+		5EE00EB626862AE400A49928 /* Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
+		5EE00EB826862C8C00A49928 /* AppManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppManager.swift; sourceTree = "<group>"; };
+		5EE00EBF26863AA700A49928 /* MovieClsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieClsCell.swift; sourceTree = "<group>"; };
+		5EE00EC126863ABA00A49928 /* MoviePosterClsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviePosterClsCell.swift; sourceTree = "<group>"; };
+		5EE00EC326863AF000A49928 /* Extention.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extention.swift; sourceTree = "<group>"; };
+		97E14EE33B342023F6B9C426 /* Pods_BrewApps.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BrewApps.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5EE00E9226861D6300A49928 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C5212BA1059B0001E2B26AC4 /* Pods_BrewApps.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		251E960656BBEA5DDC542274 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				97E14EE33B342023F6B9C426 /* Pods_BrewApps.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3751624297750A4BA525EDC6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4D1EC98B3BA9024518D26D8B /* Pods-BrewApps.debug.xcconfig */,
+				3891072E75560B3AD4C20CE8 /* Pods-BrewApps.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		5EE00E8C26861D6300A49928 = {
+			isa = PBXGroup;
+			children = (
+				5EE00E9726861D6300A49928 /* BrewApps */,
+				5EE00E9626861D6300A49928 /* Products */,
+				3751624297750A4BA525EDC6 /* Pods */,
+				251E960656BBEA5DDC542274 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		5EE00E9626861D6300A49928 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5EE00E9526861D6300A49928 /* BrewApps.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5EE00E9726861D6300A49928 /* BrewApps */ = {
+			isa = PBXGroup;
+			children = (
+				5EE00EBD26863A3A00A49928 /* Resources */,
+				5EE00EBA268639D300A49928 /* Global */,
+				5EE00EAF2686243800A49928 /* Model */,
+				5EE00EB02686244300A49928 /* ViewModel */,
+				5EE00EB12686244B00A49928 /* View */,
+				5EE00EA926861D6500A49928 /* Info.plist */,
+				5EE00EA126861D6300A49928 /* BrewApps.xcdatamodeld */,
+			);
+			path = BrewApps;
+			sourceTree = "<group>";
+		};
+		5EE00EAF2686243800A49928 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				5EE00EB22686248B00A49928 /* Model.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		5EE00EB02686244300A49928 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				5EE00EB426862A9800A49928 /* ViewModel.swift */,
+				5E0636E62686E5C800B6EE96 /* MovieDetailViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		5EE00EB12686244B00A49928 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				5EE00EBE26863A6F00A49928 /* CollectionCell */,
+				5EE00EBC268639FF00A49928 /* StoryBoard */,
+				5EE00EBB268639EE00A49928 /* ViewController */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		5EE00EBA268639D300A49928 /* Global */ = {
+			isa = PBXGroup;
+			children = (
+				5EE00EB626862AE400A49928 /* Constant.swift */,
+				5EE00EB826862C8C00A49928 /* AppManager.swift */,
+				5EE00E9826861D6300A49928 /* AppDelegate.swift */,
+				5EE00E9A26861D6300A49928 /* SceneDelegate.swift */,
+				5EE00EC326863AF000A49928 /* Extention.swift */,
+			);
+			path = Global;
+			sourceTree = "<group>";
+		};
+		5EE00EBB268639EE00A49928 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				5EE00E9C26861D6300A49928 /* MovieVC.swift */,
+				5E0636E42686E04500B6EE96 /* MovieDetailsVC.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		5EE00EBC268639FF00A49928 /* StoryBoard */ = {
+			isa = PBXGroup;
+			children = (
+				5EE00E9E26861D6300A49928 /* Main.storyboard */,
+				5EE00EA626861D6500A49928 /* LaunchScreen.storyboard */,
+			);
+			path = StoryBoard;
+			sourceTree = "<group>";
+		};
+		5EE00EBD26863A3A00A49928 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				5EE00EA426861D6500A49928 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		5EE00EBE26863A6F00A49928 /* CollectionCell */ = {
+			isa = PBXGroup;
+			children = (
+				5EE00EBF26863AA700A49928 /* MovieClsCell.swift */,
+				5EE00EC126863ABA00A49928 /* MoviePosterClsCell.swift */,
+			);
+			path = CollectionCell;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5EE00E9426861D6300A49928 /* BrewApps */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5EE00EAC26861D6500A49928 /* Build configuration list for PBXNativeTarget "BrewApps" */;
+			buildPhases = (
+				4738540F7FE87D5CC2B04E42 /* [CP] Check Pods Manifest.lock */,
+				5EE00E9126861D6300A49928 /* Sources */,
+				5EE00E9226861D6300A49928 /* Frameworks */,
+				5EE00E9326861D6300A49928 /* Resources */,
+				ABEA81B016B614C9BB9AE8A0 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BrewApps;
+			productName = BrewApps;
+			productReference = 5EE00E9526861D6300A49928 /* BrewApps.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5EE00E8D26861D6300A49928 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1170;
+				LastUpgradeCheck = 1170;
+				ORGANIZATIONNAME = Deny;
+				TargetAttributes = {
+					5EE00E9426861D6300A49928 = {
+						CreatedOnToolsVersion = 11.7;
+					};
+				};
+			};
+			buildConfigurationList = 5EE00E9026861D6300A49928 /* Build configuration list for PBXProject "BrewApps" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5EE00E8C26861D6300A49928;
+			productRefGroup = 5EE00E9626861D6300A49928 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5EE00E9426861D6300A49928 /* BrewApps */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5EE00E9326861D6300A49928 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5EE00EA826861D6500A49928 /* LaunchScreen.storyboard in Resources */,
+				5EE00EA526861D6500A49928 /* Assets.xcassets in Resources */,
+				5EE00EA026861D6300A49928 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4738540F7FE87D5CC2B04E42 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BrewApps-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ABEA81B016B614C9BB9AE8A0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BrewApps/Pods-BrewApps-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BrewApps/Pods-BrewApps-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-BrewApps/Pods-BrewApps-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5EE00E9126861D6300A49928 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5EE00EC026863AA700A49928 /* MovieClsCell.swift in Sources */,
+				5EE00EB726862AE400A49928 /* Constant.swift in Sources */,
+				5E0636E52686E04500B6EE96 /* MovieDetailsVC.swift in Sources */,
+				5EE00EB32686248B00A49928 /* Model.swift in Sources */,
+				5EE00E9D26861D6300A49928 /* MovieVC.swift in Sources */,
+				5E0636E72686E5C800B6EE96 /* MovieDetailViewModel.swift in Sources */,
+				5EE00EA326861D6300A49928 /* BrewApps.xcdatamodeld in Sources */,
+				5EE00E9926861D6300A49928 /* AppDelegate.swift in Sources */,
+				5EE00EB526862A9800A49928 /* ViewModel.swift in Sources */,
+				5EE00E9B26861D6300A49928 /* SceneDelegate.swift in Sources */,
+				5EE00EC226863ABA00A49928 /* MoviePosterClsCell.swift in Sources */,
+				5EE00EC426863AF000A49928 /* Extention.swift in Sources */,
+				5EE00EB926862C8C00A49928 /* AppManager.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		5EE00E9E26861D6300A49928 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5EE00E9F26861D6300A49928 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5EE00EA626861D6500A49928 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5EE00EA726861D6500A49928 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5EE00EAA26861D6500A49928 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.7;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5EE00EAB26861D6500A49928 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.7;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5EE00EAD26861D6500A49928 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4D1EC98B3BA9024518D26D8B /* Pods-BrewApps.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = BrewApps/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.7;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Deny.BrewApps;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5EE00EAE26861D6500A49928 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3891072E75560B3AD4C20CE8 /* Pods-BrewApps.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = BrewApps/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.7;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Deny.BrewApps;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5EE00E9026861D6300A49928 /* Build configuration list for PBXProject "BrewApps" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5EE00EAA26861D6500A49928 /* Debug */,
+				5EE00EAB26861D6500A49928 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5EE00EAC26861D6500A49928 /* Build configuration list for PBXNativeTarget "BrewApps" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5EE00EAD26861D6500A49928 /* Debug */,
+				5EE00EAE26861D6500A49928 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		5EE00EA126861D6300A49928 /* BrewApps.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				5EE00EA226861D6300A49928 /* BrewApps.xcdatamodel */,
+			);
+			currentVersion = 5EE00EA226861D6300A49928 /* BrewApps.xcdatamodel */;
+			path = BrewApps.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 5EE00E8D26861D6300A49928 /* Project object */;
+}
